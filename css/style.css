@@ -1,0 +1,389 @@
+
+*{  margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    padding: 0;
+    line-height: normal;
+}
+    /* HEADER */
+header{
+    background-image: linear-gradient(#311011, black);
+    height: 20px;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    padding-right:20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color:aqua;
+}
+.headerindex{
+    width: 100%;
+    position:fixed;
+}
+header{
+    width: 100%;
+    position:fixed;
+}
+.nav2{display:none
+}
+
+/* INDEX */
+
+.ind{
+   background-color: #311011;
+}
+h1{
+    color:beige;
+    margin-right: 0;
+}
+
+.ind1{
+    color:beige;
+    margin-top: 20;
+}
+h2{color:aquamarine}
+
+.imgcontactateindex{
+    width: 33;
+    height: 33;
+}
+.index{
+    background-image: linear-gradient(black, #1F0A0B);
+}
+.h1index{
+    font-family: 'Montserrat', sans-serif;
+      color:beige
+    }
+
+/* IMÁGENES INDEX */
+
+.fb{
+        width:83;
+        height: 52;
+        }
+.tw{
+            margin-right:-65;
+            width: 66;
+            height: 52;
+        }
+.ig{
+            width: 66;
+            height: 52;
+        }
+.logo{
+    border-radius: 50%;
+}
+
+.fotocontainer{
+    padding:10;
+}
+.fotocontainer:hover{
+    scale:1.1;
+}
+.fotocontainer1{
+    padding:10;
+}
+.fotocontainer1:hover{
+    scale:1.1;
+}
+.fotocontainer2{
+    padding:10;
+}
+.fotocontainer2:hover{
+    scale:1.1;
+}
+.container1:hover{
+    scale:1.1;
+}
+.container-fluid1{
+  background-image: url(https://media.istockphoto.com/id/172297774/es/foto/texturas-rojo-oscuro.jpg?s=612x612&w=0&k=20&c=h_1gCCdkZ2RwYE449o7QYCh04t7PFXTtvQLT15LVRyg=);
+}
+
+.imgcontactateindex{
+    margin-top: 0;
+}
+.imgcontactateindex:hover{
+    transform:translatey(2px)
+}
+/* SOBRE NOSOTROS */
+
+.sobre-nosotros{
+    background-image: linear-gradient(#311011, black);
+    color:beige
+}
+.container-costum{
+    margin: 20px auto;
+    width: 90%;
+    max-width: 10000px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+.costum1{
+    color:beige;
+}
+.costum2{
+    color:beige
+}
+.costum3{
+    color:beige
+}
+.about-us{
+    margin-left:350
+}
+
+.h4aboutus{
+    margin-left: 122
+}
+/* ANIMACIONES */
+
+.imgindex{
+    transition:all 0.4s ease;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-delay:1s ;
+}
+
+@keyframes move {
+0%{ width:100;
+}
+100%{ width: 70;
+}
+}
+li:hover{ transform: translatey(2px)
+}
+button:hover{
+    scale:1.2;
+}
+.contactanosindex:hover{
+    transform: translatey(2px)
+}
+
+.foto1:hover{
+    scale:1.4;
+}
+.foto2:hover{
+    scale:1.4;
+}
+.foto3:hover{
+    scale:1.4;
+}
+.costum1:hover{
+    scale:1.2;
+}
+.costum2:hover{
+    scale:1.2;
+}
+.costum3:hover{
+    scale:1.2;
+}
+
+.imgindex:hover{
+    scale:1.3;
+}
+.logo:hover{
+    scale:1.1;
+}
+.imgindex{
+    height: 50px;
+    width: 50px;
+    animation-duration: 3s;
+    animation-delay: 0,5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-name:(ima)
+}
+img{
+    height: 150;
+    width: 150;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+}
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    margin-left: 415;
+}
+/* FOOTER */
+
+.footer{
+    background-image: linear-gradient(#311011, black);
+    height: 20px;
+    width: 100%;
+    margin-top:10;
+}
+
+.h2footer{
+    margin-left:314;
+}
+/* ENVIANOS TU CONSULTA */
+
+.consulta{
+    background-image: linear-gradient(#311011, black );
+    color: cyan;
+}
+
+.form-contro{
+    color:black;
+   padding: 0%;
+}
+.escribe{
+    color:black;
+}
+button{
+    color:black;
+}
+h4{
+    color:beige;  
+    margin-top: 11;
+    font-family:fantasy;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    color:black;
+   
+}
+label{
+    color:aqua;
+}
+.consultas2{
+    margin-left: 466;
+}
+.consultas1{
+    margin-left: 400;
+}
+/* CONTACTO */
+.contact{
+    background-image: linear-gradient(#311011, black);
+    color:aqua;
+}
+.contacto1{
+    margin-left: 471;
+    color:beige;
+}
+
+/* ENVIANOS TU CV */
+
+.cv{
+    background-image: linear-gradient(#311011, black);
+    color:aqua;
+}
+.cv1{
+    margin-left:280;
+    color:beige;
+}
+.c-v{
+    margin-left: 0;
+}
+
+/* SERVICIOS */
+
+
+.servicios{
+    background-image: linear-gradient(#311011, black);
+}
+p{
+    margin-bottom:22px;
+    color:beige;
+}
+
+.p-servicios{
+color:beige;
+background-color: #311011;
+}
+.footer1{
+    background-image: linear-gradient(#311011, black);
+margin:0;
+margin-top: 0px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px){
+    .nav2{display:block;
+    position:fixed;
+    width: 100%;}
+    .nav1{display: none;}
+    .footer1{background-color: blue;}
+    .footer{background-color: blue;}
+    .logo{
+        width: 170;
+        height: 170;
+        margin-top: 89;
+    }
+    .imgindex{
+        width: 25;
+        margin-top: 124;
+        margin-bottom:14;
+    }
+    .contactate1{
+        margin-left: 188;
+        height: 11;
+        width: 11;
+    }
+    p{ margin-top: 33;}
+
+    div{display: flex;
+    justify-content: center;
+    }
+
+    .h1index{
+        margin-left: 12;
+    }
+    .container-costum{
+    grid-template-columns:repeat( 1, 1fr);
+}   
+.p-servicios{
+margin-left: 16;
+}
+h4{
+    margin-left: 11;
+}
+.ind1{
+    margin-left: 23;
+}
+.contach2{
+height: 22;
+width: 22;
+}
+
+.about-us{
+    margin-left: 50;
+
+}
+.consultas2{
+    margin-left: 144;
+}
+.consultas1{
+    margin-left: 111;
+}
+.h2footer{
+    margin-left:10
+}
+.h4aboutus{
+    margin-left:10
+}
+.h1service{
+    margin-left: 114;
+}
+.cv1{
+    margin-left: 54;
+}
+}
